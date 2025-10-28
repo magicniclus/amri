@@ -1,0 +1,41 @@
+{
+  "id": "rkkuWwP12paoPlid5v1Q",
+  "informationsPersonnelles": {
+    "nom": "",
+    "prenom": "",
+    "email": "adbetton32@gmail.com",
+    "telephone": "0749229392",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1760010122,
+      "nanoseconds": 270000000
+    },
+    "rgpd": false,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "Adbetton",
+    "metier": "Maconnerie general (gros second), Pose de menuiserie",
+    "secteurActivite": "35, 22, 50",
+    "raisonSociale": "Auto-entrepreneur",
+    "anneeCreation": "2022",
+    "nombreCollaborateurs": "2-5",
+    "prestation": "",
+    "rayonIntervention": "",
+    "certifications": "",
+    "garanties": "Décennale",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-10-12T18:17:23.300Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}
