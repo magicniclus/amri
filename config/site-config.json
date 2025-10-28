@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "Adbetton",
-    "legalName": "Adbetton Maçonnerie",
-    "address": "8 avenues de moka, 35400 Saint-Malo",
-    "phone": "06 48 81 25 78",
-    "email": "adbetton32@gmail.com",
-    "siret": "951 592 161",
-    "ceo": "MORGAN BOURGES"
+    "name": "Amri",
+    "legalName": "Amri Maçonnerie",
+    "address": "Toulouse et région",
+    "phone": "07 69 43 81 55",
+    "email": "contact@amri-maconnerie.fr",
+    "siret": "En cours",
+    "ceo": "ZIDANE AMRI"
   },
   "hero": {
-    "title": "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
-    "subtitle": "Spécialiste du secteur du bâtiment : maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement. Un travail soigné, durable et de qualité dans un rayon de 50 km autour de Saint-Malo.",
+    "title": "Amri Maçonnerie - Expertise depuis 2005",
+    "subtitle": "Spécialiste du secteur du bâtiment : maçonnerie, charpente, terrassement et piscines. Plus de 20 ans d'expérience dans la région de Toulouse.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/maison-hero.png",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Savoir-faire familial transmis de père en fils",
-        "subtitle": "Plus de 10 ans d'expérience sur le terrain",
-        "content": "Notre entreprise, Adbetton Maçonnerie, est née d'une véritable passion transmise de père en fils. Forts d'un savoir-faire familial et d'une expérience solide sur le terrain, nous mettons notre expertise au service de vos projets, qu'ils soient petits ou grands. Notre mission : apporter un travail soigné, durable et de qualité, dans le respect des délais et des normes.",
+        "title": "Expertise et savoir-faire depuis 2005",
+        "subtitle": "Plus de 20 ans d'expérience sur le terrain",
+        "content": "Notre entreprise, Amri Maçonnerie, est née d'une véritable passion pour les métiers du bâtiment. Fort d'une expérience solide depuis 2005, nous mettons notre expertise au service de vos projets, qu'ils soient petits ou grands. Notre mission : apporter un travail soigné, durable et de qualité, dans le respect des délais et des normes.",
         "image": "/maison-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Maçonnerie traditionnelle et moderne",
-        "subtitle": "Spécialisation en rénovation de pierre et joints à l'ancienne",
-        "content": "Ce qui nous distingue, c'est notre amour du métier, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que la maçonnerie traditionnelle peut rimer avec modernité et précision. Nous maîtrisons parfaitement les normes de sécurité et de construction en vigueur.",
+        "title": "Maçonnerie, charpente et terrassement",
+        "subtitle": "Spécialisation en construction de piscines et travaux de terrassement",
+        "content": "Ce qui nous distingue, c'est notre polyvalence et notre expertise dans plusieurs corps de métier. De la maçonnerie à la charpente, en passant par le terrassement et la construction de piscines, nous maîtrisons parfaitement les techniques modernes et les normes de sécurité en vigueur.",
         "image": "/maison-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,38 +46,38 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos chantiers de maçonnerie générale et joints de pierres dans un rayon de 50 km autour de Saint-Malo",
+    "subtitle": "Découvrez nos chantiers de maçonnerie, charpente, terrassement et piscines dans la région de Toulouse",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
         "alt": "Maçonnerie générale",
-        "title": "Construction neuve - Saint-Malo (35)"
+        "title": "Construction neuve - Toulouse (31)"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Joints de pierres",
-        "title": "Réalisation joints pierres - Dinard (35)"
+        "alt": "Charpente",
+        "title": "Charpente traditionnelle - Blagnac (31)"
       },
       {
         "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=800&fit=crop",
         "alt": "Extension maison",
-        "title": "Extension - Dinan (22)"
+        "title": "Extension - Colomiers (31)"
       },
       {
         "src": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=800&fit=crop",
-        "alt": "Enduit de façade",
-        "title": "Enduit façade - Cancale (35)"
+        "alt": "Construction piscine",
+        "title": "Construction piscine - Muret (31)"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Assainissement",
-        "title": "Drainage - Dol-de-Bretagne (35)"
+        "alt": "Terrassement",
+        "title": "Terrassement - Tournefeuille (31)"
       },
       {
         "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Ouvertures",
-        "title": "Création ouvertures - Combourg (35)"
+        "alt": "Maçonnerie générale",
+        "title": "Maçonnerie générale - Plaisance-du-Touch (31)"
       }
     ]
   },
@@ -88,9 +88,9 @@
   "team": {
     "members": [
       {
-        "name": "Morgan Bourges",
-        "position": "Fondateur & Artisan Maçon",
-        "description": "Issu d'une famille de maçons, j'ai grandi sur les chantiers, entouré par la passion du bâtiment et le respect du travail bien fait. Après plusieurs années d'expérience dans différents domaines du gros œuvre et de la rénovation, j'ai créé Adbetton en 2020 pour faire perdurer le savoir-faire familial tout en y apportant ma touche personnelle : la qualité, la fiabilité et la proximité avec mes clients.",
+        "name": "Zidane Amri",
+        "position": "Fondateur & Artisan Multi-spécialités",
+        "description": "Passionné par les métiers du bâtiment depuis plus de 20 ans, j'ai créé Amri Maçonnerie en 2005 pour offrir des services complets dans le secteur de la construction. Spécialisé en maçonnerie, charpente, terrassement et construction de piscines, je mets mon expertise au service de vos projets avec une équipe de 2 à 5 collaborateurs selon les besoins.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]

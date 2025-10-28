@@ -43,17 +43,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  Adbetton
+                  Amri Maçonnerie
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Spécialiste en maçonnerie générale (gros second œuvre) et pose de menuiserie. Garantie décennale.
+                Spécialiste en maçonnerie, charpente, terrassement et construction de piscines dans la région de Toulouse.
               </p>
               <a 
-                href="tel:0749229392" 
+                href="tel:0769438155" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 49 22 93 92
+                07 69 43 81 55
               </a>
             </motion.div>
 
@@ -92,11 +92,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0749229392"
+                  href="tel:0769438155"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 49 22 93 92</span>
+                  <span>07 69 43 81 55</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -117,7 +117,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} Adbetton. Tous droits réservés.
+              © {currentYear} Amri Maçonnerie. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

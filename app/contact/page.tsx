@@ -45,11 +45,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zones d'intervention :\nIlle-et-Vilaine (35)\nCôtes-d'Armor (22)\nManche (50)",
-    phone: "07 49 22 93 92",
-    email: "adbetton32@gmail.com",
+    address: "Zone d'intervention :\nRégion de Toulouse (31)\nRayon de 50 km autour de Toulouse",
+    phone: "07 69 43 81 55",
+    email: "contact@amri-maconnerie.fr",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Toulouse,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -70,7 +70,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de maçonnerie ou de pose de menuiserie ? Notre équipe est là pour vous accompagner en Bretagne et Normandie.
+              Un projet de maçonnerie, charpente, terrassement ou construction de piscine ? Notre équipe est là pour vous accompagner dans la région de Toulouse.
             </p>
           </motion.div>
         </div>

@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "Adbetton - Maçonnerie Générale & Pose de Menuiserie en Bretagne et Normandie",
-  description: "Adbetton, auto-entrepreneur spécialisé en maçonnerie générale (gros second œuvre) et pose de menuiserie. Devis gratuit en Ille-et-Vilaine, Côtes-d'Armor et Manche.",
+  title: "Amri Maçonnerie - Maçonnerie, Charpente, Terrassement & Piscines à Toulouse",
+  description: "Amri Maçonnerie, auto-entrepreneur spécialisé en maçonnerie, charpente, terrassement et construction de piscines. Plus de 20 ans d'expérience dans la région de Toulouse. Devis gratuit.",
   keywords: [
-    "maçonnerie générale Bretagne",
-    "gros second œuvre Ille-et-Vilaine",
-    "pose menuiserie Côtes-d'Armor",
-    "artisan maçon Manche",
-    "construction Bretagne",
-    "maçon Rennes",
-    "menuiserie Saint-Brieuc",
-    "maçonnerie Cherbourg",
-    "gros œuvre",
-    "cloisons",
+    "maçonnerie Toulouse",
+    "charpente Toulouse",
+    "terrassement Toulouse",
+    "construction piscine Toulouse",
+    "artisan maçon Haute-Garonne",
+    "maçonnerie générale 31",
+    "charpente bois Toulouse",
+    "terrassement piscine",
+    "maçon Blagnac",
+    "charpentier Colomiers",
+    "piscine enterrée Muret",
     "devis gratuit",
-    "Adbetton",
-    "travaux maison",
-    "garantie décennale",
+    "Amri Maçonnerie",
+    "travaux maison Toulouse",
     "auto-entrepreneur bâtiment"
   ],
-  author: "Adbetton",
-  siteUrl: "https://adbetton.fr",
-  siteName: "Adbetton - Maçonnerie Générale",
+  author: "Amri Maçonnerie",
+  siteUrl: "https://amri-maconnerie.fr",
+  siteName: "Amri Maçonnerie - Toulouse",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,46 +116,52 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "Adbetton",
-  "legalName": "Adbetton",
+  "name": "Amri Maçonnerie",
+  "legalName": "Amri Maçonnerie",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Adbetton"
+    "name": "Zidane Amri"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "Bretagne",
+    "addressRegion": "Occitanie",
+    "addressLocality": "Toulouse",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33749229392",
+    "telephone": "+33769438155",
     "contactType": "customer service",
-    "email": "adbetton32@gmail.com",
+    "email": "contact@amri-maconnerie.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Ille-et-Vilaine"
+      "name": "Haute-Garonne"
     },
     {
-      "@type": "AdministrativeArea", 
-      "name": "Côtes-d'Armor"
+      "@type": "City", 
+      "name": "Toulouse"
     },
     {
-      "@type": "AdministrativeArea",
-      "name": "Manche"
+      "@type": "City",
+      "name": "Blagnac"
+    },
+    {
+      "@type": "City",
+      "name": "Colomiers"
     }
   ],
   "serviceType": [
     "Maçonnerie générale",
-    "Gros second œuvre", 
-    "Pose de menuiserie",
+    "Charpente", 
+    "Terrassement",
+    "Construction de piscines",
     "Construction",
     "Rénovation"
   ],
@@ -184,15 +190,31 @@ export const servicesSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Maçonnerie générale",
-          "description": "Élévation de murs, cloisons, dalles, chapes, gros second œuvre"
+          "description": "Réalisation de fondations, dalles béton, murs porteurs, cloisons, escaliers en béton"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Pose de menuiserie",
-          "description": "Installation de fenêtres, portes, volets, cloisons"
+          "name": "Charpente",
+          "description": "Conception et réalisation de charpentes en bois traditionnelles et modernes"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Terrassement",
+          "description": "Travaux de terrassement, préparation de terrain, aménagement extérieur"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Construction de piscines",
+          "description": "Conception et réalisation de piscines enterrées et semi-enterrées"
         }
       }
     ]

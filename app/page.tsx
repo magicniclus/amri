@@ -22,61 +22,45 @@ export default function Home() {
   const servicesData = [
     {
       title: "Maçonnerie Générale",
-      subtitle: "Construction neuve et extension",
-      content: "Réalisation de fondations, dalles béton, murs porteurs, cloisons, escaliers en béton. Construction neuve et extension de maison avec garantie décennale.",
+      subtitle: "Construction et rénovation",
+      content: "Réalisation de fondations, dalles béton, murs porteurs, cloisons, escaliers en béton. Construction neuve et extension de maison dans la région de Toulouse.",
       image: "/macon.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
     {
-      title: "Joints de Pierres",
-      subtitle: "Technique traditionnelle à l'ancienne",
-      content: "Pose de pierres naturelles et réalisation de joints de pierres à l'ancienne. Spécialisation en rénovation de bâtiments anciens avec respect des techniques traditionnelles.",
+      title: "Charpente",
+      subtitle: "Charpente traditionnelle et moderne",
+      content: "Conception et réalisation de charpentes en bois traditionnelles et modernes. Rénovation et création de structures de toiture adaptées à vos besoins.",
       image: "/joint-de-pierre.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
     },
     {
-      title: "Ouvertures & Extensions",
-      subtitle: "Création et agrandissement",
-      content: "Création d'ouvertures dans murs porteurs, extensions de maison. Nous adaptons votre habitat à vos besoins avec expertise technique.",
-      image: "/extension.png",
+      title: "Terrassement",
+      subtitle: "Préparation et aménagement",
+      content: "Travaux de terrassement pour préparation de terrain, création de fondations, aménagement extérieur et préparation pour construction de piscines.",
+      image: "/terrassementee.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997"
     },
     {
-      title: "Enduits de Façade",
-      subtitle: "Finitions extérieures",
-      content: "Application d'enduits de façade, finitions extérieures. Nous protégeons et embellissons vos murs avec des matériaux de qualité.",
+      title: "Construction de Piscines",
+      subtitle: "Piscines enterrées et semi-enterrées",
+      content: "Conception et réalisation de piscines enterrées et semi-enterrées. Du terrassement à la finition, nous gérons votre projet de A à Z.",
       image: "/facade.png",
       gradientFrom: "#fd7e14",
       gradientTo: "#ffc107"
-    },
-    {
-      title: "Assainissement",
-      subtitle: "Drainage et évacuation",
-      content: "Assainissement, drainage, murs de soutènement. Solutions complètes pour la gestion des eaux et la stabilité de vos constructions.",
-      image: "/assainissement.png",
-      gradientFrom: "#6f42c1",
-      gradientTo: "#e83e8c"
-    },
-    {
-      title: "Terrassement",
-      subtitle: "Petits travaux de terrassement",
-      content: "Petits travaux de terrassement et finitions extérieures. Préparation de terrain et aménagements pour vos projets de construction.",
-      image: "/terrassement.png",
-      gradientFrom: "#17a2b8",
-      gradientTo: "#6c757d"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "8 avenues de moka\n35400 Saint-Malo\nRayon d'intervention : 50 km",
-    phone: "06 48 81 25 78",
-    email: "adbetton32@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Saint-Malo,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    address: "Région de Toulouse (31)\nIntervention dans un rayon de 50 km\nautour de Toulouse",
+    phone: "07 69 43 81 55",
+    email: "contact@amri-maconnerie.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Toulouse,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -127,7 +111,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de maçonnerie générale, joints de pierres, extensions ou assainissement autour de Saint-Malo"
+        subtitle="Parlons de votre projet de maçonnerie, charpente, terrassement ou construction de piscine dans la région de Toulouse"
         contactInfo={contactInfo} 
       />
 
